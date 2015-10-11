@@ -519,20 +519,21 @@ dissertation.
     pages in the list of figures, adding labels to reference the page
     from elsewhere, and add borders to the pages.
 
-\item[\latexpackage{subfig}:]
+\item[\latexpackage{subcaption}:]
     Provides for including subfigures within a figure, and includes
     being able to separately reference the subfigures.  This is a
-    replacement for the older \texttt{subfigure} environment.
+    replacement for the older \texttt{subfigure} and \texttt{subfig}
+    environments.
 
 \item[\latexpackage{rotating}:]
     Provides two environments, sidewaystable and sidewaysfigure,
     for typesetting tables and figures in landscape mode.  
 
-\item[\latexpackage{longtable}:]
-    Support for long tables that span multiple pages.
-
-\item[\latexpackage{tabularx}:]
-    Provides an enhanced tabular environment with auto-sizing columns.
+\item[\latexpackage{tabu}:]
+    Provides the \texttt{tabu} environment for creating tables, which 
+    combines the power of \texttt{longtable}, \texttt{tabularx}, and
+    more. This is now preferred to the older \texttt{tabular}
+    environment.
 
 \item[\latexpackage{ragged2e}:]
     Provides several new commands for setting ragged text (\eg forms
