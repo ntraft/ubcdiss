@@ -1,0 +1,42 @@
+# Ignore the built pdf file
+diss.pdf
+
+# Ignore backup files.
+*~
+
+# This part taken from GitHub's recommended latex .gitignore file.
+*.acn
+*.acr
+*.alg
+*.aux
+# Keep the bbl file so we don't always have to regenerate the bibliography.
+#*.bbl
+*.blg
+# barf files, how appropriate
+*.brf
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
